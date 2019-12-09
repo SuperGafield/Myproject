@@ -1,0 +1,10 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  vectors.cpp
+  textures.cpp
+  pool.cpp
+c:\殷科的文件夹\newcode\myproject\fountain\pool.cpp(57): warning C4018: “<”: 有符号/无符号不匹配
+  main.cpp
+  camera.cpp
+  AirFountain.cpp
+  正在生成代码...
+  FountainWater.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Fountain\.\Debug\FountainWater.exe

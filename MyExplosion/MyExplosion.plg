@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyExplosion - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MyExplosion.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\郑平泰之文稿\《高级编程篇》\第12章  爆炸效果的模拟\MyExplosion\LoadOBJ.cpp"
+"E:\郑平泰之文稿\《高级编程篇》\第12章  爆炸效果的模拟\MyExplosion\MyExplosion.cpp"
+"E:\郑平泰之文稿\《高级编程篇》\第12章  爆炸效果的模拟\MyExplosion\MyExplosionView.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAB.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/MyExplosion.pdb" /debug /machine:I386 /out:"Debug/MyExplosion.exe" /pdbtype:sept 
+".\Debug\LoadOBJ.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyExplosion.obj"
+".\Debug\MyExplosionDoc.obj"
+".\Debug\MyExplosionView.obj"
+".\Debug\MyTexture.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MyExplosion.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAC.tmp"
+<h3>Output Window</h3>
+Compiling...
+LoadOBJ.cpp
+Generating Code...
+Compiling...
+MyExplosion.cpp
+MyExplosionView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyExplosion.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
