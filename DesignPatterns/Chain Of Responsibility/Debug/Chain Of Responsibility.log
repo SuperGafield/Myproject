@@ -1,0 +1,10 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Chain Of Responsibility.cpp
+c:\殷科的文件夹\newcode\myproject\myproject\designpatterns\chain of responsibility\chain of responsibility.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\殷科的文件夹\newcode\myproject\myproject\designpatterns\chain of responsibility\chain of responsibility.cpp(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\殷科的文件夹\newcode\myproject\myproject\designpatterns\chain of responsibility\chain of responsibility.cpp(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Chain Of Responsibility.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Chain Of Responsibility.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Myproject\Debug\Chain Of Responsibility.exe

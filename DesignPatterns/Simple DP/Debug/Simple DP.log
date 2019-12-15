@@ -1,0 +1,4 @@
+﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Factory.cpp
+Factory.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Simple DP.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Myproject\Debug\Factory.exe

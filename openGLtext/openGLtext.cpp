@@ -40,7 +40,6 @@ glEnable(GL_LIGHT0);
 BuildList(); 
 }
 
-
 int main(int argc, char **argv)
 {
 glutInit(&argc,argv);
@@ -52,7 +51,6 @@ glutMainLoop();
 
 return 0;
 }
-
 
 GLfloat light_pos[] = { 0.0, 3.0, 5.0, 1.0 };
 GLfloat red[] = { 0.8, 0.2, 0.2, 1.0 };
@@ -78,7 +76,6 @@ glutSolidCube(1);
 
 glPopMatrix();
 
-
 glDisable(GL_DEPTH_TEST);
 glDisable(GL_LIGHTING);
 glDisable(GL_LIGHT0);
@@ -97,7 +94,6 @@ r= 0;
 }
 }
 
-
 void reshape(int w, int h)
 {
 glViewport(0, 0, w, h);
@@ -114,18 +110,13 @@ glutPostRedisplay();
 glutTimerFunc(1,timer,0); 
 }
 
-
-
 inline void BuildList()
 {
-
 list=glGenLists(1);
 glNewList(list,GL_COMPILE);
 DRAW_STRING(0, 0, "hello,gult bitmap strings.",GLUT_BITMAP_TIMES_ROMAN_24);
 glEndList();
-
 }
-
 
 inline void DISPLAY_TEXT()
 {

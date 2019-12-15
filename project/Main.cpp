@@ -2,9 +2,51 @@
 #include "pch.h"
 #include <iostream>
 #include "Smart_pointer.h"
+#include "Complex.h"
+#include "MemoryManagement.h"
 
 int main()
 {
+	//Complex *integer = new Complex(1,2);
+	Complex *integer;
+	int complexNum = sizeof(Complex);
+	void *  mem = ::operator new(complexNum);
+	integer = static_cast<Complex *>(mem);
+	integer->Complex::Complex(1,2);
+	delete integer;
+
+	MemoryManagement  * memorytest = new MemoryManagement();
+	memorytest->Primitives();
+	delete memorytest;
+
+
+	//Complex* pc = new Complex(1, 2); 此处new称为表达式或运算符new，编译器将其转化为一下代码：
+	Complex* pc;
+	try
+	{
+		void* mem = operator new(sizeof(Complex));  // 底层调用malloc函数分配内存
+		pc = static_cast<Complex*>(mem);
+		//pc->Complex::Complex(1, 2); 
+		new(pc) Complex(1, 2);
+		// 一般由分配器的construct函数完成，主要工作：
+									 // 使用placement new: new(mem)(arguments_list)
+									 // 即：pc = new(mem)(1,2)完成初始化
+									 // 相应的析构对象时调用分配器的destroy函数，释放内
+									 // 存则调用operator delete
+		pc->Complex::Complex(1, 2);
+		new(pc) Complex(1, 2);
+
+	}
+	catch (std::bad_alloc)
+	{
+		// 处理可能出现的异常
+	}
+
+	Complex * ptr;
+	void *memory = operator new(sizeof(Complex));
+	ptr = static_cast<Complex*>(memory);
+	ptr->~Complex();
+	operator delete(ptr);
 
 	int *a = new int(10);
 	int *b = new int(20);

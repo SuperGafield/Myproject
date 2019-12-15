@@ -1,5 +1,2 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(JustDoIt.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  main.cpp
-  MyLoader.cpp
-  正在生成代码...
-  JustDoIt.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Debug\DrivingCar.exe
+  JustDoIt.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Myproject\Debug\DrivingCar.exe

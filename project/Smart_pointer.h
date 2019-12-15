@@ -5,7 +5,6 @@ using namespace std;
 
 /*  实现一个线程安全的智能指针 */
 /* 引用计数基类 */
-
 class Sp_counter
 {
 private:
@@ -126,7 +125,6 @@ inline smart_pointer<T>::smart_pointer(smart_pointer<T> &sp)
 template<typename T>
 inline smart_pointer<T> &smart_pointer<T>::operator=(smart_pointer<T> &sp)
 {
-
 	/* 防止自己对自己的赋值以及指向相同内存单元的赋值 */
 	if (this != &sp) {
 

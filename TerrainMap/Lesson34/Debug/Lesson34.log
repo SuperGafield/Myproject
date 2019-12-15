@@ -1,9 +1,9 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(.\Debug\)包含从另一个项目(Lesson34.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
 cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
   Lesson34.cpp
-c:\殷科的文件夹\newcode\myproject\terrainmap\lesson34\lesson34.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\殷科的文件夹\newcode\myproject\myproject\terrainmap\lesson34\lesson34.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
-c:\殷科的文件夹\newcode\myproject\terrainmap\lesson34\lesson34.cpp(355): warning C4838: 从“int”转换到“BYTE”需要收缩转换
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\殷科的文件夹\NewCode\MyProject\TerrainMap\Lesson34\.\Debug\Topographic.exe) 与 Linker 的 OutputFile 属性值(C:\殷科的文件夹\NewCode\MyProject\TerrainMap\Lesson34\Debug\Lesson34.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+c:\殷科的文件夹\newcode\myproject\myproject\terrainmap\lesson34\lesson34.cpp(355): warning C4838: 从“int”转换到“BYTE”需要收缩转换
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\殷科的文件夹\NewCode\MyProject\Myproject\TerrainMap\Lesson34\.\Debug\Topographic.exe) 与 Linker 的 OutputFile 属性值(C:\殷科的文件夹\NewCode\MyProject\Myproject\TerrainMap\Lesson34\Debug\Lesson34.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Topographic) 与 Linker 的 OutputFile 属性值(Lesson34)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
-  Lesson34.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\TerrainMap\Lesson34\.\Debug\Topographic.exe
+  Lesson34.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Myproject\TerrainMap\Lesson34\.\Debug\Topographic.exe

@@ -16,6 +16,63 @@
     <Filter Include="DataStructure">
       <UniqueIdentifier>{4c059f23-ecdb-45ba-865a-8b54f4808cfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\LinearList">
+      <UniqueIdentifier>{40353ae1-65d1-4c54-9827-8722ad91715a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\HashTable">
+      <UniqueIdentifier>{a195cfe6-7984-443c-894a-dd901fbbb565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\排序">
+      <UniqueIdentifier>{c9d6641b-a2bc-4d06-978e-6adda5bcf404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\搜索">
+      <UniqueIdentifier>{d2591f52-3776-478d-a784-72232dd9f52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\查找">
+      <UniqueIdentifier>{187db892-641e-4f29-9685-93b9fd829395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\树">
+      <UniqueIdentifier>{2e6cf35b-5d41-472a-af0c-9a353e3f493f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\字符串">
+      <UniqueIdentifier>{ffd97855-3c4f-4ca4-93c4-a15c4249f0f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\图">
+      <UniqueIdentifier>{c5aaf968-92c5-425f-bfed-fbea6531362c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\基本算法思想">
+      <UniqueIdentifier>{d4c03375-0386-4ae8-bda3-c4b13c7752cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他">
+      <UniqueIdentifier>{ea33b5e8-ebe4-426a-adc9-b4329260fd8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\数论">
+      <UniqueIdentifier>{dd65b489-39f4-4f12-a311-732d744ef599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\计算几何">
+      <UniqueIdentifier>{3b83c678-b24d-48b8-bb09-8ef5edc27bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\概率分析">
+      <UniqueIdentifier>{347d5ae9-2b11-47f9-9b8f-b045a7295411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\拓扑网络">
+      <UniqueIdentifier>{05418d05-b9b2-4b4b-a1da-2b4f1b547464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\矩阵运算">
+      <UniqueIdentifier>{53a5612f-e0dd-4c32-8685-56ac10adbf77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\其他\线性规划">
+      <UniqueIdentifier>{1c5c573f-a380-48b1-89ba-43d816d1e23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MemoryManagement">
+      <UniqueIdentifier>{7f9f9f8e-ad57-4ae7-ab62-79b500886b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeetCode">
+      <UniqueIdentifier>{cc826699-7bdd-4534-b103-ec88d4c568e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="组件">
+      <UniqueIdentifier>{a7014108-973b-4515-b01c-4ef76933b4cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -23,9 +80,6 @@
     </ClInclude>
     <ClInclude Include="Smart_pointer.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LinearList.h">
-      <Filter>DataStructure</Filter>
     </ClInclude>
     <ClInclude Include="HashTable.h">
       <Filter>DataStructure</Filter>
@@ -63,8 +117,35 @@
     <ClInclude Include="LinearProgramming.h">
       <Filter>DataStructure</Filter>
     </ClInclude>
-    <ClInclude Include="Node.h">
-      <Filter>DataStructure</Filter>
+    <ClInclude Include="标头.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Complex.h">
+      <Filter>MemoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>MemoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode.h">
+      <Filter>LeetCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Componet.h">
+      <Filter>组件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagement.h">
+      <Filter>MemoryManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedList.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleList.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleCircularLinkedList.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglyLinkedCircularList.h">
+      <Filter>DataStructure\LinearList</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -74,11 +155,14 @@
     <ClCompile Include="Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LinearList.cpp">
-      <Filter>DataStructure</Filter>
-    </ClCompile>
     <ClCompile Include="HashTable.cpp">
       <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Componet.cpp">
+      <Filter>组件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagement.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

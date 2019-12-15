@@ -153,12 +153,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BasicAlgorithmIdea.h" />
+    <ClInclude Include="Complex.h" />
+    <ClInclude Include="Componet.h" />
     <ClInclude Include="ComputationGeometry.h" />
+    <ClInclude Include="DoubleList.h" />
     <ClInclude Include="HashTable.h" />
-    <ClInclude Include="LinearList.h" />
+    <ClInclude Include="LeetCode.h" />
+    <ClInclude Include="SinglyLinkedList.h" />
     <ClInclude Include="LinearProgramming.h" />
     <ClInclude Include="Map.h" />
     <ClInclude Include="MatrixOperation.h" />
+    <ClInclude Include="MemoryManagement.h" />
+    <ClInclude Include="MemoryPool.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="ProbabilityAnalysis.h" />
     <ClInclude Include="Smart_pointer.h" />
@@ -167,11 +173,14 @@
     <ClInclude Include="TopologicalNetwork.h" />
     <ClInclude Include="Tree.h" />
     <ClInclude Include="NumberTheory.h" />
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="标头.h" />
+    <ClInclude Include="DoubleCircularLinkedList.h" />
+    <ClInclude Include="SinglyLinkedCircularList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Componet.cpp" />
     <ClCompile Include="HashTable.cpp" />
-    <ClCompile Include="LinearList.cpp" />
+    <ClCompile Include="MemoryManagement.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
