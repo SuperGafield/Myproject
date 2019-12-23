@@ -1,10 +1,8 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(project.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  pch.cpp
-  Componet.cpp
-  HashTable.cpp
-  MemoryManagement.cpp
-c:\殷科的文件夹\newcode\myproject\myproject\project\complex.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   Main.cpp
+c:\殷科的文件夹\newcode\myproject\myproject\project\complex.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+c:\殷科的文件夹\newcode\myproject\myproject\project\leetcode.h(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  MemoryManagement.cpp
 c:\殷科的文件夹\newcode\myproject\myproject\project\complex.h(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   正在生成代码...
   project.vcxproj -> C:\殷科的文件夹\NewCode\MyProject\Myproject\x64\Debug\Zproject.exe

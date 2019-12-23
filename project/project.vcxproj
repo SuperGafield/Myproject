@@ -152,6 +152,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DynamicArray.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="StaticArray.h" />
     <ClInclude Include="BasicAlgorithmIdea.h" />
     <ClInclude Include="Complex.h" />
     <ClInclude Include="Componet.h" />
@@ -169,6 +172,7 @@
     <ClInclude Include="ProbabilityAnalysis.h" />
     <ClInclude Include="Smart_pointer.h" />
     <ClInclude Include="SortingAlgorithm.h" />
+    <ClInclude Include="StaticLinkedList.h" />
     <ClInclude Include="StringMatching.h" />
     <ClInclude Include="TopologicalNetwork.h" />
     <ClInclude Include="Tree.h" />

@@ -10,13 +10,13 @@ public:
 	{
 		cout << " Complex(double real, double image)" << endl;
 	}
-	Complex(const Complex& d)          //拷贝函数
+	Complex(const Complex& d)   //拷贝函数
 	{
 		cout << "Complex(const Complex& d)" << endl;
 		_real = d._real;
 		_image = d._image;
 	}
-	~Complex()       //析构函数
+	~Complex()   //析构函数
 	{
 		cout << "~Complex() " << endl;
 		_real = 0.0;
@@ -76,11 +76,11 @@ public:
 			return this->_real < d._real;
 		}
 	}
-	bool operator<=(const Complex& d)           //<=
+	bool operator<=(const Complex& d)  //<=
 	{
 		if (this->_image != 0 || d._image != 0)
 		{
-			cout << "无法比较      ";
+			cout << "无法比较";
 			return false;
 		}
 		else
@@ -108,6 +108,7 @@ public:
 		ret._image = (this->_image + d._image);
 		return ret;
 	}
+
 	Complex& operator+=(const Complex& d)          //+=
 	{
 		cout << "+=" << endl;

@@ -147,6 +147,18 @@
     <ClInclude Include="SinglyLinkedCircularList.h">
       <Filter>DataStructure\LinearList</Filter>
     </ClInclude>
+    <ClInclude Include="StaticLinkedList.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticArray.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>DataStructure\LinearList</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>DataStructure\排序</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
