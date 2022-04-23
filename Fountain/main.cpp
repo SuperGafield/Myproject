@@ -431,8 +431,9 @@ int main (int argc, char **argv)
 	//Initialize GLUT
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH );
-	glutInitWindowSize(600,600);
-	//Create a window with rendering context and everything else we need
+	//设置主窗口的大小
+	glutInitWindowSize(1200,2400);
+	//设置窗口标题栏名称
 	glutCreateWindow("Fountain with simulated water");
 	//compute the vertices and indices
 	Pool.Initialize(NUM_X_OSCILLATORS,NUM_Z_OSCILLATORS,OSCILLATOR_DISTANCE,OSCILLATOR_WEIGHT, 0.05, 4.0, 4.0);
@@ -484,8 +485,8 @@ int main (int argc, char **argv)
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
 	//Load the textures:
-	WaterTexture.LoadFromFile("Water.bmp");
-	RockTexture.LoadFromFile("Rock.bmp");
+	//WaterTexture.LoadFromFile("Water.bmp");
+	//RockTexture.LoadFromFile("Rock.bmp");
 	GroundTexture.LoadFromFile("Ground.bmp");
 
 	//initialize generation of random numbers:
